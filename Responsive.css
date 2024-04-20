@@ -1,0 +1,179 @@
+@media screen and (min-width: 1366px){
+	body{
+		font-size: 1.6em;
+	}
+	.container .datos-aprendisage .nombre{
+		height: 250px;
+	}
+}
+@media screen and (min-width: 1200px){
+	body{
+		font-size: 1.2em;
+	}
+	.container .datos-aprendisage .nombre{
+		height: 220px;
+	}
+}
+@media screen and (max-width: 1024px){
+	body{
+		font-size: .9em;
+	}
+	.container{
+		width: 95%;
+	}
+}
+@media screen and (max-width: 769px){
+	body{
+		font-size: .7em;
+	}
+	.container .datos-aprendisage .nombre{
+		height: 130px;
+	}
+	.container .datos-personales .contactos span i{
+		font-size: 1.1em;
+		margin-right: 0;
+		text-shadow: 0 0 3px black;
+	}
+	.container .datos-personales .contactos span a{
+		margin-left:  20px;
+	}
+	.container .datos-aprendisage .experiencias-laborales li{
+		border-left: 4.5px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .experiencias-laborales li i{
+		font-size: 1.2em;
+		top: -2px;
+		left: -8px;
+	}
+}
+@media screen and (max-width: 540px){
+	body{
+		font-size: .5em;
+	}
+	.container{	
+		width: 96%;
+	}
+	.container .datos-personales{	
+		border-right: 1px solid #9c8ef2;
+		border-radius: 0;
+	}
+	.container .datos-personales .img-perfil i{
+		border: 2px solid #9e8cf2;
+	}
+	.container .datos-personales .contactos{
+		border-bottom: 2px solid #9c8ef2;
+	}
+	.container .datos-personales .habilidades{
+		border-bottom: 2px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .nombre{
+		height: 90px;
+		border-radius: 0;
+	}
+	.container .datos-aprendisage .acerca-de_mi{
+		border-bottom: 2px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .experiencias-laborales li{
+		border-left: 4px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .experiencias-laborales li i{
+		font-size: 1.2em;
+		top: -2px;
+		left: -7px;
+	}
+}
+@media screen and (max-width: 400px){
+	body{
+		font-size: .3em;
+	}
+	.container .datos-personales{	
+		border-right: 1px solid #9c8ef2;
+	}
+	.container .datos-personales .img-perfil i{
+		border: 1.5px solid #9e8cf2;
+	}
+	.container .datos-personales .contactos{
+		border-bottom: 1.3px solid #9c8ef2;
+	}
+	.container .datos-personales .contactos span a{
+		margin-left:  15px;
+	}
+	.container .datos-personales .habilidades{
+		border-bottom: 1.3px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .nombre{
+		height: 60px;
+	}
+	.container .datos-aprendisage .acerca-de_mi{
+		border-bottom: 1.3px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .experiencias-laborales li{
+		border-left: 2px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .experiencias-laborales li i{
+		font-size: 1.2em;
+		top: -2px;
+		left: -3.5px;
+	}
+	.container .datos-personales .educacion li{
+		line-height: 1.6em;
+	}
+	.container .datos-personales .educacion li p{
+		padding: 0 0 0 11% ;
+	}
+	.container .datos-personales .educacion li span{
+		padding: 0 0 0 13% ;
+	}
+}
+@media screen and (max-width: 320px){
+	body{
+		font-size: .15em;
+	}
+	.container{	
+		border: none;
+	}
+	.container .datos-personales{	
+		border-right: 1px solid #9c8ef2;
+	}
+	.container .datos-personales .img-perfil i{
+		border: 1.5px solid #9e8cf2;
+	}
+	.container .datos-personales .contactos{
+		border-bottom: 1.3px solid #9c8ef2;
+	}
+	.container .datos-personales .contactos span a{
+		margin-left:  10px;
+	}
+	.container .datos-personales .habilidades{
+		border-bottom: 1.3px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .nombre{
+		height: 60px;
+	}
+	.container .datos-aprendisage .nombre h1{
+		font-size: 1000%;
+	}
+	.container .datos-aprendisage .nombre h2{
+		font-size: 500%;
+	}
+	.container .datos-aprendisage .acerca-de_mi{
+		border-bottom: 1.3px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .experiencias-laborales li{
+		border-left: 2px solid #9c8ef2;
+	}
+	.container .datos-aprendisage .experiencias-laborales li i{
+		font-size: 1.2em;
+		top: -0px;
+		left: -2px;
+	}
+	.container .datos-personales .educacion li{
+		line-height: 3em;
+	}
+	.container .datos-personales .educacion li p{
+		padding: 0 0 0 11% ;
+	}
+	.container .datos-personales .educacion li span{
+		padding: 0 0 0 13% ;
+	}
+}

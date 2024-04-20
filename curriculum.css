@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Script&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+.container{
+	position: relative;
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
+	width: 90%;
+	height: 95%;
+	border: 2px solid #9e8cf2;
+	border-radius: 10px;
+}
+.container .datos-personales{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items:center;
+	width: 38%;
+	background: #efecff;
+	border-right: 2px solid #9e8cf2;
+	border-radius: 10px 0 0 10px;
+}
+.container .datos-personales .img-perfil{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height: 80%;
+	padding:7% 3% 3% 3%;
+}
+.container .datos-personales .img-perfil i{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	border: 4px solid #9e8cf2;
+}
+.container .datos-personales .img-perfil i img{
+	padding: 3%;
+	width: 100%;
+}
+.container .datos-personales .contactos{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	padding: 3% 0 3% 0;
+	border-bottom: 3px solid #9e8cf2;	
+}
+.container .datos-personales .contactos h3{
+	padding: 0 0 3% 0;
+	text-align: center;
+	text-decoration: underline #9e8cf2;
+	text-transform: uppercase;
+}
+.container .datos-personales .contactos span{
+	position: relative;
+	padding: 2% 0 2% 0;
+	display: flex;
+	align-items: center;
+}
+.container .datos-personales .contactos span i{
+	position: absolute;
+	left:0;
+	color: #9e8cf2;
+	font-size: 1.3em;
+	margin-right: 7px;
+	text-shadow: 0 0 5px black;
+}
+.container .datos-personales .contactos span a{
+	text-decoration: none;
+	color: black;
+	transition: .3s;
+	margin-left: 35px;
+}
+.container .datos-personales .contactos span:hover a{
+	color: #9e8cf2;
+	border-bottom: 1px solid #9e8cf2;
+}
+.container .datos-personales .habilidades{
+	padding: 3% 0 3% 0;
+	border-bottom: 3px solid #9e8cf2;	
+}
+.container .datos-personales .habilidades h3{
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline #9e8cf2;
+	padding: 0 0 3% 0;
+}
+.container .datos-personales .habilidades li{
+	padding: .5% 0 0 0;
+}
+.container .datos-personales .educacion{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-content: center;
+	padding: 3% 0 3% 0;
+}
+.container .datos-personales .educacion h3{
+	text-align: center !important;
+	text-transform: uppercase;
+	text-decoration: underline #9e8cf2;
+	padding: 0 0 3% 0;
+}
+.container .datos-personales .educacion li{
+	text-transform: capitalize;
+	font-family: arial;
+	font-weight: 1000;
+	line-height: 1.2em;
+}
+.container .datos-personales .educacion li p{
+	color: #252525;
+	padding: 0 0 0 12%;
+	font-size: .8em;
+	text-transform: none;
+	font-weight: 700;
+}
+.container .datos-personales .educacion li span{
+	color: #808080;
+	padding: 0 0 0 14%;	
+	font-size: .79em;
+	text-transform: none;
+	font-weight: 500;
+}
+.container .datos-personales .educacion li span i{
+	color: #505050;
+	font-weight: 700;
+	text-decoration: underline black;
+}
+.container .datos-aprendisage{
+
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.container .datos-aprendisage .nombre{
+	position: relative;
+	width: 100%;
+	height: 157px;
+	background: #b6a9f6;
+	border-radius: 0 10px 0 0 ;
+}
+.container .datos-aprendisage .nombre h1{
+  	font-family: "League Script", cursive;
+	font-size: 450%;
+	font-weight: 1000;
+	text-align: center;
+	height: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: -10px;
+
+}
+.container .datos-aprendisage .nombre h2{
+	font-family: Georgia, serif;
+	font-size: 250%;
+	font-weight: 200;
+	text-align: center;
+	margin-left: -10px;
+	height: 40%;
+}
+.container .datos-aprendisage .acerca-de_mi{
+	padding: 7% 0% 4% 0 ;
+	width: 93%;
+	border-bottom: 3px solid #9e8cf2;
+}
+.container .datos-aprendisage .acerca-de_mi h3{
+	text-transform: uppercase;
+	padding: 0 0 3% 0;
+	letter-spacing: .1em;
+}
+.container .datos-aprendisage .experiencias-laborales{
+	padding: 7% 0;
+	display: flex;
+	width: 85%;
+	flex-direction: column;
+}
+.container .datos-aprendisage .experiencias-laborales h3{
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	padding:0 0 3% 0;
+}
+.container .datos-aprendisage .experiencias-laborales li{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	padding: 0% 0 0 5%;
+	width: 100%;
+	font-weight: 600;
+	color:#393939;
+	border-left: 6px solid #9c8ef2;
+}
+.container .datos-aprendisage .experiencias-laborales li span{
+	padding: 1.5% 0 1% 1.5% ;
+	text-transform: none;
+	color:#707070
+}
+.container .datos-aprendisage .experiencias-laborales li h4{
+	text-transform: none;
+	padding: 0 0 1% 1.5% ;
+	font-weight: 500;
+	color:#707070;
+	padding: 0 0 4% 0;
+}
+.container .datos-aprendisage .experiencias-laborales li i{
+	position: absolute;
+	top: -4px;
+	left: -16px;
+	color: #9c8ef2;
+	font-size: 1.4em;
+	text-shadow: 0 0 8px black;
+}
